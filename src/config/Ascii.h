@@ -13,7 +13,7 @@ const std::string windowsAsciiArt =
                                     "|  __/|    /| | | |/   \  | | | |\/| | | | |`--. \\n"
                                     "| |   | |\ \\ \_/ / /^\ \_| |_| |  | | |_| /\__/ /\n"
                                    " \_|   \_| \_|\___/\/   \/\___/\_|  |_/\___/\____/ \n";
-                                                 
+
 const std::string nonWindowsAsciiArt =
               "\n                                                             \n"
               "██████  ██████   ██████  ██   ██ ██ ███    ███ ██    ██ ███████\n"
@@ -21,10 +21,6 @@ const std::string nonWindowsAsciiArt =
               "██████  ██████  ██    ██   ███   ██ ██ ████ ██ ██    ██ ███████\n"
               "██      ██   ██ ██    ██  ██ ██  ██ ██  ██  ██ ██    ██      ██\n"
               "██      ██   ██  ██████  ██   ██ ██ ██      ██  ██████  ███████\n";
-                                                                
-                                                                
-
-
 
 /* Windows has some characters it won't display in a terminal. If your ascii
    art works fine on Windows and Linux terminals, just replace 'asciiArt' with
